@@ -498,7 +498,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm450-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/sdm450-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/system/vendor/lib64/vendor.qti.hardware.fm@1.0.so
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/system/vendor/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/xiaomi/sdm450-common/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/xiaomi/sdm450-common/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
+    vendor/xiaomi/sdm450-common/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+	vendor/xiaomi/sdm450-common/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+	vendor/xiaomi/sdm450-common/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/sdm450-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -514,4 +539,6 @@ PRODUCT_PACKAGES += \
     ims \
     TimeService \
     vendor.qti.hardware.fm@1.0 \
+	QPerformance \
+    UxPerformance \
     ParanoidPapers
