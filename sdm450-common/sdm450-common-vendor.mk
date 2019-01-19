@@ -508,4 +508,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     qcrilmsgtunnel \
     ims \
-    TimeService
+    TimeService \
+    ParanoidPapers
